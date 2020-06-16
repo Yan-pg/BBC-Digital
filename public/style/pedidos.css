@@ -1,0 +1,40 @@
+section {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 9999px;
+    max-width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 5%;
+}
+.close {
+    position: relative;
+    text-align: right;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+.bag {
+    display: flex;
+    justify-content: center;    
+    margin-top: 30%;
+
+}
+.bag h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 3%;
+    font-size: 28px;
+}
+.section0 button {
+    width: 300px;
+    height: 40px;
+    margin-top: 5%;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.section0 button:hover {
+    opacity: 0.6;
+}

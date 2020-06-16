@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;   
+    font-family: 'Open Sans', sans-serif;
+}
+.menu-moblie {
+    width: 70%;
+    position: absolute;
+    z-index: 999;
+    cursor: zoom-in;
+}
+.menu1 {
+    display: none;
+}
+.menu1 p {
+    cursor: pointer;
+}
+.menu-moblie img {
+    display: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.menu-moblie nav {
+    background-color: white;
+    margin: 0;
+    display: none;
+}
+.menu-moblie nav li {
+    margin-left: 5%;
+    list-style: none;
+    padding-top: 5%;
+    display: none;
+    border-bottom: 1px solid rgb(138, 136, 136);
+}
+.menu-moblie nav li:hover {
+    background: rgb(187, 187, 187);
+    
+}
+.menu-moblie nav a {
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+    text-transform: uppercase;
+}
+.menu-moblie nav li a:hover {
+    opacity: 0.6;
+}
+.container {
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    height: 30px;
+}
+.container-01 p {
+    text-transform: uppercase;
+    margin-top: 3%;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+.container-01 {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.infos-02 {
+    display: flex;
+}
+.infos-02 p {
+    margin-top: 5%;
+    margin-right: 10%;
+}
+.infos-02 a{
+    padding-right: 5%;
+    cursor: pointer;
+}
+.sileder {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.slider img {
+    position: absolute;
+    max-width: 100%;
+}
+.main-header {
+    max-width: 980px;
+    position: relative;
+    margin: 0 auto;
+}
+.img-logo {
+    margin-left: 45%;
+    margin-top: 3%;
+}
+.menu {
+    margin-top: 5%;
+}
+.menu nav{
+    display: flex;
+    justify-content: space-between;
+}
+.menu nav li {
+    list-style: none;
+    
+}
+.menu nav li a {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px #000;
+}
+.menu nav li a:hover {
+    opacity: 0.8;
+    color: teal;
+    font-size: inherit;
+}
+.commerce {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.commerce p{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+}
+.commerce a {
+    text-decoration: none;
+}
+
+.commerce a p:hover {
+    opacity: 0.8;
+    color: teal;
+    
+    font-size: inherit;
+}
+.free-shipping {
+    background-color: violet;
+    position: relative;
+}
+.section-border {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    margin: 0;
+}
+.border-p {
+    color: white;
+    max-width: 980px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.border-p p {
+    margin-top: 0.5%;
+    text-align: center;
+}
+main {
+    margin-top: 10%;
+}
+.name-title {
+    max-width: 1100;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 5%;
+    border-bottom: 2px solid rgb(185, 185, 185);
+}
+.grid-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+    grid-template-rows: 0.2fr;
+    gap: 20px 20px;
+    grid-template-areas: ". . .";
+}
+.grid {
+    text-align: center;
+    margin-bottom: 50%;
+    color: rgb(107, 107, 107);
+    box-shadow: 20px 20px 30px rgba(46, 46, 46, 0.116);
+}
+.grid p {
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+.grid button {
+    background: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+.grid button:hover {
+    opacity: 0.9;
+}
+.container-descripition {
+    width: 100%;
+    margin-bottom: 10%;
+}
+.container-descripition h1 {
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+.descripion {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-us {
+    border: 80px solid white;
+    box-shadow: 30px 30px 30px rgba(46, 46, 46, 0.171);
+}
+.about-us p{
+    text-align: justify;
+    line-height: 40px;
+    font-size: 12px;
+    color: rgb(99, 99, 99);
+}
+.map {
+    width: 425px;
+    height: 500px;
+    background-color: white;
+    margin-top: 2%;
+    box-shadow: 30px 30px 30px rgba(46, 46, 46, 0.171);
+}
+footer {
+    width: 100%;
+    border-top: 7px solid black;
+    margin-bottom: 6%;
+}
+footer h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+footer a {  
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(80, 79, 79);
+}
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.tips input{
+    width: 250px;
+    height: 30px;
+}
+.tips button {
+    height: 30px;
+    width: 70px;
+    color: white;
+    background: black;
+    border: none;
+    cursor: pointer;
+}
+.decide {
+    text-align: center;
+    margin-top: 8%;
+}
+.select-s {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+option {
+    background: transparent;
+    color: black;
+}
+.select1-s {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+@media screen and (max-width: 1200px){
+    .commerce{
+        margin-top: 15px;
+    }
+    .decide {
+        margin-top: 10px;
+    }
+ 
+}
+@media screen and (max-width: 900px){
+    .commerce {
+        display: none;
+    }
+    .descripion {
+        display: block;
+    }
+    .about-us {
+        width: 100%;
+    }
+    .map {
+        width: 100%;
+    }
+    .container-01 {
+        margin-right: 20%;
+    }
+    .footer-container {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width: 700px){
+    .menu  {
+        display: none;
+    }
+    .menu-moblie img{
+        display: block;
+        margin-left: 5%;
+    }
+    .menu1 {
+        display: flex;
+        
+    }
+    .menu1 img {
+        margin-top: 0.5%;
+    }
+    .menu1 p{
+        margin-left: 2%;
+        margin-top: 0.5%;
+        display: block;
+        color: white;
+        font-weight: 800;
+    }
+    .menu-moblie nav li {
+        display: block;
+    }
+    .infos-01 {
+        display: none;
+    }
+    .infos-02 {
+        margin-left: 90%;
+        cursor: pointer;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .grid-container {
+        overflow: scroll;
+    }
+    .decide {
+        margin-top: 100px;
+        
+    }
+    .select-s {
+        background: rgb(85, 84, 84);
+        color: white;
+    }
+    .select1-s {
+        background: rgb(85, 84, 84);
+        color: white;
+    }
+    option{
+        color: white;
+    }
+}
+@media screen and (max-width: 1100px){
+    .container-01 {
+        margin-left: 8%;
+    }
+}   
